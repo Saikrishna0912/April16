@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            table, th, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                height: 100px;
+                width: 600px;
+                margin-top: 150px;
+                margin-left: 400px;
+                text-align: center;
+                background-color: beige;
+            }
+            #G:hover{
+                background-color: green;
+            }
+            #Y:hover{
+                background-color:yellow;
+            }
+            #R:hover{
+                background-color:red;
+            }
+            #B:hover{
+                background-color: black;
+            }
+            td{
+                transition-duration: 3s;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td id="G">Green</td>
+                <td id="Y">Yellow</td>
+                <td id="R">Red</td>
+                <td id="B">Black</td>
+            </tr>
+            <tr>
+                <td id="B">Black</td>
+                <td id="Y">Yellow</td>
+                <td id="G">Green</td>
+                <td id="R">Red</td>
+
+            </tr>
+            <tr>
+                <td id="R">Red</td>
+                <td id="G">Green</td>
+                <td id="Y">Yellow</td>
+                <td id="B">Black</td>
+
+            </tr>
+            <tr>
+                <td id="Y">Yellow</td>
+                <td id="B">Black</td>
+                <td id="R">Red</td>
+                <td id="G">Green</td>
+
+            </tr>
+        </table>
+    </body>
+</html>
